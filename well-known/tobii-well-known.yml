@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of Tobii web + developer hosts
+hosts:
+  - host: https://www.tobii.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /llms.txt
+        status: 200
+        file: ../llms/tobii-llms.txt
+        note: Published llms.txt site index (not under /.well-known/, recorded here for completeness).
+  - host: https://developer.tobiipro.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /llms.txt
+        status: 404

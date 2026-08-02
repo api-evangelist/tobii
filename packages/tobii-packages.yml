@@ -1,0 +1,61 @@
+generated: '2026-07-21'
+method: searched
+source: https://developer.tobiipro.com/ + PyPI + github.com/tobiipro
+description: >-
+  First-party Tobii developer libraries. The core Tobii Pro SDK ships as the
+  PyPI package tobii-research (Python) and as downloadable .NET / C / Matlab
+  bindings from developer.tobiipro.com; the official add-ons and the Tobii Pro
+  Glasses 3 client libraries are published in the tobiipro GitHub organization.
+packages:
+  - language: python
+    registry: pypi
+    name: tobii-research
+    url: https://pypi.org/project/tobii-research/
+    install: pip install tobii-research
+    version: 2.1.0
+    official: true
+    note: Core Tobii Pro SDK for Python (Tobii AB). Homepage http://developer.tobiipro.com/
+  - language: python
+    registry: github
+    name: prosdk-addons-python
+    url: https://github.com/tobiipro/prosdk-addons-python
+    install: pip install tobii-research-addons
+    official: true
+    note: Official add-ons/helpers for the Tobii Pro SDK (Python).
+  - language: csharp
+    registry: github
+    name: prosdk-addons-dotnet
+    url: https://github.com/tobiipro/prosdk-addons-dotnet
+    official: true
+    note: Official add-ons for the Tobii Pro SDK (.NET). Core .NET SDK downloaded from developer.tobiipro.com.
+  - language: c
+    registry: github
+    name: prosdk-addons-c
+    url: https://github.com/tobiipro/prosdk-addons-c
+    official: true
+    note: Official add-ons for the Tobii Pro SDK (C). Core C SDK downloaded from developer.tobiipro.com.
+  - language: matlab
+    registry: github
+    name: prosdk-addons-matlab
+    url: https://github.com/tobiipro/prosdk-addons-matlab
+    official: true
+    note: Official add-ons for the Tobii Pro SDK (Matlab).
+  - language: python
+    registry: github
+    name: g3pylib
+    url: https://github.com/tobiipro/g3pylib
+    official: true
+    note: Official Python client library for the Tobii Pro Glasses 3 API.
+  - language: csharp
+    registry: github
+    name: Tobii.Glasses3.SDK
+    url: https://github.com/tobiipro/Tobii.Glasses3.SDK
+    official: true
+    note: Official .NET SDK for the Tobii Pro Glasses 3 API.
+non_first_party:
+  - language: javascript
+    registry: npm
+    name: tobii
+    url: https://www.npmjs.com/package/tobii
+    official: false
+    note: Unrelated third-party accessible lightbox library (author rqrauhvmra); NOT Tobii AB.

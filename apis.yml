@@ -1,8 +1,27 @@
 aid: tobii
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tobii.png
 name: Tobii
-description: 'Tobii is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Tobii is the global leader in eye tracking and attention computing,
+  headquartered in Danderyd, Sweden and listed on Nasdaq Stockholm. Its
+  developer offering centers on the Tobii Pro SDK — Python (tobii-research),
+  .NET, C and Matlab bindings for streaming gaze and eye-tracking data from
+  Tobii's screen-based and wearable eye trackers — together with the Tobii Pro
+  Glasses 3 API (with official g3pylib Python and .NET client SDKs) and XR /
+  consumer game-integration developer kits. Tobii's technology serves
+  scientific and behavioral research, UX, healthcare, XR/VR, automotive driver
+  monitoring and PC gaming markets.
 url: https://raw.githubusercontent.com/api-evangelist/tobii/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
+- Eye Tracking
+- Attention Computing
+- SDK
+- Research
+- Hardware
+- XR
+- Gaze Data
+- Behavioral Research
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,32 @@ maintainers:
 common:
 - type: Website
   url: https://www.tobii.com
+- type: DeveloperPortal
+  url: https://developer.tobiipro.com/
+- type: Documentation
+  url: https://developer.tobiipro.com/
+- type: GettingStarted
+  url: https://developer.tobiipro.com/python/python-getting-started.html
+- type: SDKs
+  url: packages/tobii-packages.yml
+- type: Packages
+  url: packages/tobii-packages.yml
+- type: Blog
+  url: https://www.tobii.com/blog
+- type: Support
+  url: https://www.tobii.com/learn-and-support/support
+- type: GitHubOrganization
+  url: https://github.com/tobiipro
+- type: PrivacyPolicy
+  url: https://www.tobii.com/company/privacy-policy
+- type: LLMsTxt
+  url: llms/tobii-llms.txt
+- type: WellKnown
+  url: well-known/tobii-well-known.yml
+- type: DomainSecurity
+  url: security/tobii-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
