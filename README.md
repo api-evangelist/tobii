@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Tobii is a company surfaced as a portfolio company of northzone and added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment pipeline.
+Tobii is the global leader in eye tracking and attention computing, headquartered in Danderyd, Sweden and listed on Nasdaq Stockholm. Its developer offering centers on the Tobii Pro SDK — Python (tobii-research), .NET, C and Matlab bindings for streaming gaze and eye-tracking data from Tobii's screen-based and wearable eye trackers — together with the Tobii Pro Glasses 3 API (with official g3pylib Python and .NET client SDKs) and XR / consumer game-integration developer kits. Tobii's technology serves scientific and behavioral research, UX, healthcare, XR/VR, automotive driver monitoring and PC gaming markets.
 
-Backed by: northzone — https://www.tobii.com
+**Areas:** Company · Enterprise · Eye Tracking · Attention Computing · SDK · Research · Hardware · Extended Reality · Gaze Data · Behavioral Research · Sweden
+
+## Tobii on APIs.io
+
+Everything profiled for Tobii is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tobii/](https://apis.io/providers/tobii/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tobii Domain Security](https://apis.io/security/tobii/tobii-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.tobii.com)
+- [Documentation](https://developer.tobiipro.com/)
+- [Getting started](https://developer.tobiipro.com/python/python-getting-started.html)
+- [Support](https://www.tobii.com/learn-and-support/support)
+- [Blog](https://www.tobii.com/blog)
+- [Privacy policy](https://www.tobii.com/company/privacy-policy)
+- [GitHub](https://github.com/tobiipro)
+
+## API Evangelist rating
+
+**Kin Score 16.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tobii/](https://apis.io/providers/tobii/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tobii: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tobii/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
